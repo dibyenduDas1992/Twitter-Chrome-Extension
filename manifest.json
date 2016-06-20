@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Twitter-Social-Toolkit",
+    "description": "Allows you to share text, images, content, links, pages etc. to your twitter account.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "128x128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "16x16.png",
+        "32": "32x32.png",
+        "48": "48x48.png",
+        "64": "64x64.png",
+        "128": "128x128.png"
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "incognito": "split"
+}
