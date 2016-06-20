@@ -19,7 +19,8 @@
         "128": "128x128.png"
     },
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "tabs"
     ],
     "incognito": "split"
 }
